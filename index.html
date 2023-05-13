@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="icon" href="images/logo-removebg-preview.png">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Styles End -->
+    <!-- Link Banner -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <!--Link Banner End -->
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<!-- Box icons End-->
+<!-- Remix icons End-->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+<!-- Remix icons End-->
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+<!-- Google Fonts Link -->
+<!-- SwiperJS -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
+<!-- SwiperJS -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="navbar">
+        <img loading="lazy" class="logo"
+            src="https://media.discordapp.net/attachments/989606748698607656/1106704074893709332/dadada-removebg-preview_1.png">
+        <!--<a href="#" class="logo"></a>-->
+        <div class="nav-links">
+            <ul>
+                <li> <a href="#">Inicio</a></li>
+                <li><a href="#">Trámites</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Noticias</a></li>
+            </ul>
+        </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Banner -->
+    <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide slide1">
+                    <div class="slide-content">
+                        <h2>Conoce todo lo que la Municipalidad de Miraflores tiene para ofrecer:</h2>
+                        <p>Servicios, noticias y eventos para la comunidad</p>
+                    </div>
+                    <img loading="lazy"
+                        src="https://www.peru.travel/Contenido/General/Imagen/pe/606/1.1/miraflores-costa-verde-distrito.jpg">
+                </li>
+                <li class="splide__slide slide2">
+                    <div class="slide-content">
+                        <h2>¡Siente la adrenalina!</h2>
+                        <p>Experimenta las mejores actividades en Miraflores</p>
+                    </div>
+                    <img loading="lazy"
+                        src="https://www.ytuqueplanes.com/imagenes/fotos/merchandising/Detalle%20Escritorio/3Esc-Parapente-en-el-malec%C3%B3n-de-Miraflores.jpg">
+                </li>
+                <!-- <li class="splide__slide slide3">
+                    <div class="slide-content">
+                        <h2>Parque Chino</h2>
+                        <p>Sumérgete en la cultura china en el Parque de Miraflores</p>
+                    </div>
+                    <img loading="lazy"
+                        src="https://sorprendete.pe/wp-content/uploads/tendencias/03/portada-parque-chino-scaled.jpg">
+                </li>
+                <li class="splide__slide slide4">
+                    <div class="slide-content">
+                        <h2>Parque del Amor</h2>
+                        <p>El Parque del Amor de Miraflores: Un rincón romántico con vista al mar</p>
+                    </div>
+                    <img loading="lazy" src="https://live.staticflickr.com/7521/16036300748_887acdaf8b_b.jpg">
+                </li> -->
+                <li class="splide__slide slide3">
+                    <div class="slide-content">
+                        <h2>Únete a nuestro equipo</h2>
+                        <p>Encuentra tu oportunidad laboral en Miraflores</p>
+                    </div>
+                    <img loading="lazy"
+                        src="https://elpulsolaboral.com.mx/img/articles/el-diseno-del-espacio-de-trabajo-influye-en-el-desempeno-laboral-RX8hu/DhUwT_oficina.jpg">
+                </li>
+                <li class="splide__slide slide4">
+                    <div class="slide-content">
+                        <h2>Actualízate con las últimas noticias de Miraflores</h2>
+                        <p>Sucesos, eventos y más en tu distrito</p>
+                    </div>
+                    <img loading="lazy"
+                        src="https://media.discordapp.net/attachments/989606748698607656/1106712129983230074/oMP3K7Hmczq-Bxa4IILdj-transformed.jpeg?width=705&height=308">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- NOTICIAS-->
+    <div class="contenedor">
+        <div class="noticias">
+
+            <div class="video-contenedor">
+                <h2 class="title-not">Descubre la belleza y servicios de Miraflores: El corazón de Lima</h2>
+                <iframe width="400" height="585" src="https://www.youtube.com/embed/wjo2Z1NR738"
+                    title="MIRAFLORES - Un hermoso distrito de Lima" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen class="main-video"></iframe>
+            </div>
+
+            <div class="section-not">
+                <ul>
+                    <li class="list active" data-filter="ultima">Latest</li>
+                    <li class="list" data-filter="popular">Popular</li>
+                    <li class="list" data-filter="tendencias">Trendings</li>
+                </ul>
+
+                <div class="photos" id="photos contenedor">
+
+                    <div class="itemBox not1" data-item="ultima"><img
+                            src="https://www.miraflores.gob.pe/wp-content/uploads/2023/05/Abridora-39-481x254.jpg"
+                            alt="">
+                        <p>Gracias a un acuerdo entre la municipalidad de Miraflores y el ministerio del Interior, un
+                            total de 140 policías de tránsito han sido asignados al distrito para facilitar el
+                            ordenamiento del tráfico vehicular en las principales vías de la jurisdicción [...]</p>
+                    </div>
+                    <div class="itemBox not1" data-item="ultima"><img
+                            src="https://www.miraflores.gob.pe/wp-content/uploads/2023/05/1-24-481x254.jpg" alt="">
+                        <p>El Concejo Municipal de Miraflores aprobó por unanimidad la propuesta del nuevo Reglamento de
+                            Organización y Funciones (ROF) de la institución, durante la novena sesión ordinaria
+                            realizada este jueves 11 de mayo en el Salón Consistorial del Palacio Municipal [...]</p>
+                    </div>
+                    <div class="itemBox not1" data-item="ultima"><img
+                            src="https://www.miraflores.gob.pe/wp-content/uploads/2023/05/11-2-481x254.jpg" alt="">
+                        <p>La municipalidad de Miraflores informó que, en coordinación con el Ministerio de Salud
+                            (Minsa), se mantienen alertas ante el incremento de casos de dengue en la capital y cuentan
+                            con un protocolo de atención rápida ante la aparición de algún caso de dengue en el distrito
+                            [...]</p>
+                    </div>
+
+                    <div class="itemBox not1" data-item="popular"><img
+                            src="https://www.miraflores.gob.pe/wp-content/uploads/2023/05/BRIGADISTAS7-481x254.jpg"
+                            alt="">
+                        <p>La municipalidad de Miraflores lanzó el segundo curso de brigadistas comunitarios dirigido a
+                            todos los vecinos interesados en fortalecer sus capacidades para responder de manera
+                            correcta e inmediata ante desastres como sismos o incendios[...]</p>
+                    </div>
+                    <div class="itemBox not1" data-item="popular"><img
+                            src="https://www.miraflores.gob.pe/wp-content/uploads/2023/05/Abridora-37-481x254.jpg"
+                            alt="">
+                        <p>El parque Kennedy de Miraflores será el escenario de la segunda edición del Festival Nacional
+                            de Historietas “Mundo Joven”, que se desarrollará por 11 días entre el sábado 20 y el martes
+                            30 de mayo, con ingreso gratuito[...]</p>
+                    </div>
+                    <div class="itemBox not1" data-item="popular"><img
+                            src="https://www.miraflores.gob.pe/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-09-at-14.23.02-481x254.jpeg"
+                            alt="">
+                        <p>Desde febrero pasado más de mil participantes han disfrutado de los beneficios del taller de
+                            baile y coreografías de géneros latinoamericanos y fusiones que dicta la municipalidad de
+                            Miraflores[...]</p>
+                    </div>
+
+                    <div class="itemBox not1" data-item="tendencias"><img
+                            src="https://www.miraflores.gob.pe/wp-content/uploads/2023/05/1-22-scaled-e1683575861409-481x254.jpg"
+                            alt="">
+                        <p>Luego de exitosas presentaciones en Madrid, Montevideo, Bogotá y Buenos Aires, llega a
+                            Miraflores la obra teatral “Radojka”, que reúne a las destacadas actrices Yvonne Frayssinet
+                            y Pilar Brescia en el auditorio del Centro Cultural Ricardo Palma de la Municipalidad de
+                            Miraflores.</p>
+                    </div>
+                    <div class="itemBox not1" data-item="tendencias"><img
+                            src="https://www.miraflores.gob.pe/wp-content/uploads/2023/05/Abridora-30-1024x768.jpg"
+                            alt="">
+                        <p>La Institución Educativa Inicial Municipal Santa Cruz de Miraflores organizó la primera
+                            visita de un grupo de alumnos -de entre 4 a 5 años de edad- al refugio de vida silvestre de
+                            los Pantanos de Villa, en el distrito de Chorrillos[...]</p>
+                    </div>
+                    <div class="itemBox not1" data-item="tendencias"><img
+                            src="https://www.miraflores.gob.pe/wp-content/uploads/2023/04/Abridora-26-481x254.jpg"
+                            alt="">
+                        <p>A través de su gerencia de Seguridad Ciudadana, ha puesto en funcionamiento desde abril un
+                            equipo especial dedicado a brindar atención en su idioma natal a ciudadanos extranjeros que
+                            se encuentran en situación de vulnerabilidad e indigencia en las calles del distrito[...]
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Comentarios -->
+
+        <div class="section-final">
+            <div class="comentarios">
+                <div class="box">
+                    <h4>Excelente atención al cliente y rápida solución a mis problemas</h4><br>
+                    <p>Durante mi experiencia con la Municipalidad de Miraflores, me impresionó enormemente la atención
+                        al cliente que recibí.
+                        El personal fue extremadamente amable, profesional y dispuesto a ayudar en todo lo que
+                        necesitaba. Me sentí valorado
+                        como ciudadano y respetado como cliente.</p>
+                </div>
+                <div class="box">
+                    <h4>La Municipalidad de Miraflores siempre está dispuesta a escuchar y ayudar a sus vecinos</h4><br>
+                    <p>Uno de los aspectos más destacables de la Municipalidad de Miraflores es su enfoque en el
+                        servicio al ciudadano. A lo
+                        largo de los años, la municipalidad ha demostrado estar siempre dispuesta a escuchar y ayudar a
+                        sus vecinos en todo lo
+                        que esté en su alcance.</p>
+                </div>
+                <div class="box">
+                    <h4>Orgulloso de ser parte de Miraflores, una comunidad respaldada por la gran labor de su
+                        Municipalidad</h4><br>
+                    <p>Me siento realmente orgulloso de ser parte de la comunidad de Miraflores, ya que es un lugar en
+                        el que realmente se
+                        siente el respaldo de la Municipalidad. En mi experiencia, he sido testigo de la gran labor que
+                        realiza la Municipalidad
+                        de Miraflores en beneficio de todos los ciudadanos. Desde su atención al cliente hasta la rápida
+                        solución de problemas,
+                        siempre han demostrado estar a la altura de las necesidades de la comunidad.</p>
+                </div>
+                <div class="box">
+                    <h4>La Municipalidad de Miraflores es un ejemplo de eficiencia y transparencia en su gestión</h4><br>
+                    <p>La Municipalidad de Miraflores ha logrado consolidarse como un ejemplo de eficiencia y transparencia en su gestión
+                    gracias a su compromiso en brindar servicios de calidad a los ciudadanos. En cada una de las áreas en las que se
+                    desempeña, la municipalidad ha establecido procesos y protocolos que garantizan una gestión efectiva y transparente.</p>
+                </div>
+                <div class="box">
+                    <h4>Siempre me siento seguro y protegido gracias a la labor de la Municipalidad de Miraflores</h4><br>
+                    <p>La Municipalidad de Miraflores ha demostrado ser una institución comprometida con la seguridad y protección de sus
+                    habitantes. La labor que realizan las autoridades locales en conjunto con las fuerzas del orden, hace que los vecinos de
+                    Miraflores siempre se sientan seguros y protegidos en su comunidad.</p>
+                </div>
+            </div>
+            <div class="serv-tram">
+                <div class="tramites std">
+                    <h3>Trámites</h3>
+                    <ul>
+                        <li>Inscripción y renovación de tarj.</li>
+                       <a href="#"><li>Bolsa de Empleo Municipal</li></a>
+                        <li>Certificados policiales y penales.</li>
+                        <li>Pago de impuestos y arbitrios</li>
+                    </ul>
+                </div>
+                <div class="servicios std">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li>Consulta de expedientes</li>
+                        <li>Educación y cultura</li>
+                        <li>Publicación de noticias</li>
+                        <li>Información turística</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Comentarios End -->
+
+
+
+        <!-- Footer -->
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>Municipalidad de<span> Miraflores</span></h3>
+                <p class="footer-links">
+                    <a href="#">Inicio</a> |
+                    <a href="#">Trámites</a> |
+                    <a href="#">Servicios</a> |
+                    <a href="#">Noticias</a>
+                </p>
+                <p class="footer-logo-name">
+                    ©Copyright 2023 <strong>Municipalidad de Miraflores</strong> Todos los derechos reservados
+                </p>
+            </div>
+
+            <div class="footer-center">
+
+                <div><i class="ri-map-pin-fill"></i>
+                    <p><span>Av. José Larco 400, </span><strong>Miraflores 15074</strong></p>
+                </div>
+                <div><i class="ri-phone-fill"></i>
+                    <p>(01) 6177272</p>
+                </div>
+                <div><i class="ri-mail-fill"></i> <a href="#">municip-miraflores@gmail.com</a></div>
+
+
+            </div>
+
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>Sobre la Municipalidad de Miraflores</span>
+                    <strong>Municipalidad de Miraflores</strong>
+                    siempre busca brindar servicios y mejorar la calidad de vida de nuestros habitantes, fomentar el
+                    desarrollo sostenible, promover la cultura
+                    y el turismo, y garantizar el cumplimiento de las normas y regulaciones municipales.
+                </p>
+                <div class="footer-icons">
+
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-youtube-fill"></i></a>
+
+
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Link Banner -->
+    <script src="path-to-the-file/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                type: 'fade', // Cambia el tipo de transición a fade
+                speed: 1500, // Establece la duración de la transición en 1.5s
+                rewind: true, // Establece que el slider rebote al final
+                autoplay: true, // Establece que el slider se cambie automáticamente
+                pauseOnHover: false // Establece que el slider no se detenga al pasar el cursor sobre él
+            }).mount();
+        })
+
+    </script>
+
+
+    <!-- Noticias -->
+
+    <script>
+        let list = document.querySelectorAll('.list');
+        let itemBox = document.querySelectorAll('.itemBox');
+
+        for (let i = 0; i < list.length; i++) {
+            list[i].addEventListener('click', function () {
+                for (let j = 0; j < list.length; j++) {
+                    list[j].classList.remove('active');
+                }
+                this.classList.add('active');
+
+                let datafilter = this.getAttribute('data-filter');
+
+                for (let k = 0; k < itemBox.length; k++) {
+                    itemBox[k].classList.remove('active');
+                    itemBox[k].classList.add('hide');
+
+                    if (datafilter === "todos") {
+                        itemBox[k].classList.remove('hide');
+                        itemBox[k].classList.add('active');
+                    } else if (itemBox[k].getAttribute('data-item') === datafilter) {
+                        itemBox[k].classList.remove('hide');
+                        itemBox[k].classList.add('active');
+                    }
+                }
+            })
+        }
+
+        // Simular clic en el primer botón al cargar la página
+        list[0].click();
+
+
+
+
+    </script>
+
+    <script>
+        const menuHamburger = document.querySelector("#menu-icon")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
